@@ -1,0 +1,223 @@
+@media (max-width: 1300px) {
+    .partnership_section .container-fluid .container-fluid {
+        grid-template-columns: repeat(8, 1fr);
+    } 
+}
+
+@media (min-width: 1200px) {
+
+    .service_eco .overlay-text { 
+        font-size: 23px;
+    }
+
+    /* .partnership_section .container-fluid .container-fluid {
+        grid-template-columns: repeat(8, 1fr);
+    } */
+
+    .map {
+        max-height: 300px;
+    }
+}
+
+@media (max-width: 1120px) {}
+
+@media (max-width: 990px) {
+    .hero_area {
+        height: auto;
+    }
+
+    .service_eco .overlay-text { 
+        font-size: 25px;
+    }
+
+    .service_eco .overlay {
+        left: 10%;
+    }
+
+    .service_eco .img-box img {
+        width: 100%;
+    }
+    .header_section .main_nav {
+        flex: 1;
+    }
+
+    #navbarSupportedContent {
+        margin-top: 15px;
+    }
+
+    .footer_section .container-fluid .row {
+        flex-direction: column;
+    }
+
+    #navbarSupportedContent {
+        margin-right: 0;
+    }
+
+    .header_section .header_bottom ul li a::after {
+        content: none;
+    }
+
+    .partnership_section .container-fluid .item::after {
+        height: 100px;
+    }
+
+    .contact_section .contact_detail {
+        border-right: 0;
+    }
+
+    .contact_section .map_container {
+        margin: 20px 0 20px 0;
+    }
+}
+
+@media (max-width: 768px) {
+
+    #navbarSupportedContent {
+        margin-right: 0;
+    }
+
+    h2{
+        font-size: 40px;
+    }
+
+    .service_eco .overlay-text { 
+        font-size: 20px;
+    }
+
+    .service_eco .overlay {
+        left: 5%;
+    }
+
+
+    .header_section .header_bottom ul li a::after {
+        content: none;
+    }
+
+    .layout_padding {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .layout_padding-top {
+        padding-top: 50px;
+    }
+
+    .layout_padding-bottom {
+        padding-bottom: 50px;
+    }
+
+    .slider_section .detail-box {
+        padding-bottom: 45px;
+    }
+
+    .about_section .detail-box {
+        margin-bottom: 45px;
+    }
+
+    .partnership_section .container-fluid .container-fluid {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .footer_section .footer_top .container-fluid {
+        grid-template-columns: 1fr;
+    }
+
+    .footer_section .footer_bottom .container-fluid {
+        grid-template-columns: 1fr;
+    }
+
+    .footer_section .map_container .map {
+        width: 90vw;
+        height: 33vw;
+        margin-left: 20px;
+    }
+
+    .featured_new .row {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .colOfText {
+        order: 2;
+    }
+
+    .colOfImg {
+        order: 1;
+    }
+
+    .footer_section .logo img {
+        margin-top: 10px;
+    }
+
+}
+
+@media (max-width: 576px) {
+    .service_eco .overlay-text { 
+        font-size: 18px;
+    }
+
+    .service_eco .overlay {
+        left: 5%;
+    }
+
+    .partnership_section .container-fluid .container-fluid {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .service_section .container-fluid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 490px) {
+
+    .service_eco .overlay-text { 
+        font-size: 15px;
+    }
+
+    .service_eco .overlay {
+        left: 5%;
+    }
+
+    .partnership_section .container-fluid .container-fluid {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .service_section .container-fluid {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .partnership_section .heading2 h3 {
+        padding-top: 0%;
+        padding-left: 0%;
+    }
+
+    /* .partnership_section .container-fluid .item::after {
+        content: none;
+    } */
+}
+
+@media (max-width: 400px) {
+    .partnership_section .heading2 h3::after {
+        max-width: 250px;
+    }
+
+    .heading_container h3::after {
+        max-width: 200px;
+    }
+
+    h2, h3{
+        font-size: 20px;
+    }
+
+    .service_eco .overlay-text { 
+        font-size: 10px;
+    }
+
+    .service_eco .overlay {
+        left: 5%;
+    }
+}
+
+@media (max-width: 360px) {}
+
