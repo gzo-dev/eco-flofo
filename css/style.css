@@ -389,11 +389,11 @@ li.carousel-indicator {
   background: linear-gradient(180deg, rgba(0, 0, 0, 0.62) 0%, rgba(105, 145, 47, 0.21) 73.1%, rgba(143, 198, 64, 0.13) 100%);
 }
 
-.slider_section-price .carousel-item {
+.slider_section-price .responsive_image {
   position: relative;
 }
 
-.slider_section-price .carousel-item::before {
+.slider_section-price .responsive_image::before {
   content: '';
   position: absolute;
   top: 0;
@@ -403,7 +403,7 @@ li.carousel-indicator {
   background: radial-gradient(100% 100% at 50% 0%, rgba(143, 198, 64, 0.76) 42.19%, rgba(143, 198, 64, 0.00) 83.85%);
 }
 
-.slider_section-price .carousel-item h1 {
+.slider_section-price .responsive_image h1 {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -486,6 +486,31 @@ li.carousel-indicator {
   position: absolute;
   top: 10%;
   left: 35%;
+}
+
+.slider_section-about .image {
+  position: relative;
+}
+
+.slider_section-about .main_title {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  top: 20%;
+  left: 10%;
+  background: linear-gradient(180deg, rgba(143, 198, 64, 0.56) 0%, rgba(143, 198, 64, 0.08) 100%);
+  border-radius: 50%;
+}
+
+.slider_section-about .main_title h1 {
+  margin-top: 100px;
+}
+
+.slider_section-about h4 {
+  position: absolute;
+  top: 10%;
+  right: 5%;
+  color: #565A50;
 }
 
 /* end slider section */
@@ -892,8 +917,8 @@ li.carousel-indicator {
 .featured_new2 .img-box::before {
   content: "";
   position: absolute;
-  bottom: -30px;
-  left: -30px;
+  bottom: -10px;
+  left: -10px;
   width: 220px;
   height: 220px;
   background-color: #8FC640;
@@ -1198,16 +1223,8 @@ li.carousel-indicator {
   left: 20%;
 }
 
-.form_section .form-price .col-sm-9 {
-  flex: 0 0 50%;
-}
-
-.form_section2 .myForm {
-  padding: 0 0 0 5vw;
-}
-
-.form_section2 .myForm .col-sm-10 {
-  flex: 0 0 50%;
+.form_section .form-price .col-9 {
+  flex: 0 0 55%;
 }
 
 .form_section2 .container-fluid {
@@ -1215,6 +1232,9 @@ li.carousel-indicator {
   align-items: center;
 }
 
+.form_section2 .col-9 {
+  flex: 0 0 65%;
+}
 /* end price section */
 
 .new_section .card-body {
