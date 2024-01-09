@@ -149,6 +149,35 @@
         margin-top: 10px;
     }
 
+    .form-group.row {
+        flex-direction: column;
+    }
+    
+    .form-group.row label:not(.form-check-label) {
+        text-align: left;
+        margin-bottom: 5px;
+        white-space: nowrap;
+    }
+
+    .form-group.row .col-9 {
+        width: 100%;
+    }
+
+    .new_section.container-fluid.row {
+        flex-direction: column;
+    }
+
+    .new_section.heading {
+        order: 1;
+    }
+
+    .new_section.top {
+        order: 2;
+    }
+
+    .new_section.bottom {
+        order: 3;
+    }
 }
 
 @media (max-width: 576px) {
