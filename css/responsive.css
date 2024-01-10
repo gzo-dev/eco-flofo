@@ -214,6 +214,11 @@
 
     .service_section .container-fluid {
         grid-template-columns: 1fr 1fr;
+        grid-auto-rows: 100px;
+    }
+
+    .service_section .container-fluid .item h3 {
+        font-size: 12px;
     }
 
     .partnership_section .heading2 h3 {
@@ -221,9 +226,21 @@
         padding-left: 0%;
     }
 
-    /* .partnership_section .container-fluid .item::after {
-        content: none;
-    } */
+    .form_section2 .myForm {
+        margin-left: 10px;
+    }
+
+    .form_section .form-price form{
+        padding: 10px 10px 20px 20px;
+    }
+
+    .form-group.row {
+        flex-direction: column;
+    }  
+
+    .featured_new2 .img-box img {
+        height: 250px;
+    }
 }
 
 @media (max-width: 400px) {

@@ -1237,6 +1237,10 @@ li.carousel-indicator {
 .form_section2 .col-9 {
   flex: 0 0 65%;
 }
+
+.form_section2 .myForm {
+  margin-left: 100px;
+}
 /* end price section */
 
 .new_section .card-body {
