@@ -951,6 +951,7 @@ li.carousel-indicator {
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   margin-top: 20px;
   grid-auto-rows: 200px;
+  gap: 20px;
 }
 
 .partnership_section .container-fluid .item {
