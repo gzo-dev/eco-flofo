@@ -33,49 +33,18 @@ $(".owl-carousel").owlCarousel({
 
 /** google_map js **/
 
-function myMap() {
-    var mapProp = {
-        center: new google.maps.LatLng(40.712775, -74.005973),
-        zoom: 18,
-    };
-    var map = new google.maps.Map(document.getElementById("googleMap"), mapProp);
-}
+// function myMap() {
+//     var mapProp = {
+//         center: new google.maps.LatLng(40.712775, -74.005973),
+//         zoom: 18,
+//     };
+//     var map = new google.maps.Map(document.getElementById("googleMap"), mapProp);
+// }
 
 // model
-$(document).ready(function () {
-    $(".overlay-text").mouseenter(function () {
-        // Hiển thị nội dung modal khi di chuột vào chữ
-        $("#myModal img");
-    });
-});
 
-// let slideIndex = 1;
-// showSlides(slideIndex);
 
-// function plusSlides(n) {
-//     showSlides(slideIndex += n);
-// }
-
-// function currentSlide(n) {
-//     showSlides(slideIndex = n);
-// }
-
-// function showSlides(n) {
-//     let i;
-//     let slides = document.getElementsByClassName("mySlides");
-//     let dots = document.getElementsByClassName("dot");
-//     for (i = 0; i < slides.length; i++) {
-//         slides[i].style.display = "none";
-//     }
-//     slideIndex++;
-//     if (slideIndex > slides.length) { slideIndex = 1 }
-//     for (i = 0; i < dots.length; i++) {
-//         dots[i].className = dots[i].className.replace(" active", "");
-//     }
-//     slides[slideIndex - 1].style.display = "block";
-//     dots[slideIndex - 1].className += " active";
-//     setTimeout(showSlides, 2000); // Change image every 2 seconds
-// }
+//btn
 
 document.getElementById('showFormBtn1').addEventListener('click', function () {
     toggleForm('myForm1');
