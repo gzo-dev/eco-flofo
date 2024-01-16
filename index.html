@@ -35,12 +35,23 @@
     <header class="header_section">
       <div class="header_top">
         <div class="container-fluid">
-          <div class="contact_nav">
+          <div class="contact_nav mr-4">
             <i aria-hidden="true"><img src="images/🦆 icon _Viet Nam_.svg" alt=""></i>
             <i aria-hidden="true"><img src="images/🦆 icon _Japan_.svg" alt=""></i>
             <i aria-hidden="true"><img src="images/🦆 icon _China_.svg" alt=""></i>
             <i aria-hidden="true"><img src="images/🦆 icon _Northern Ireland_.svg" alt=""></i>
-            <h6>Tìm kiếm <i class="fa fa-search"></i></h6>
+            <div class="icon-search text-white ml-3">
+              Tìm kiếm <i class="fa fa-search search-icon" aria-hidden="true"></i>
+              <div class="search-pc mt-2" style="">
+                <form action="/search/" method="get" id="searchformtab">
+                  <input name="qr" id="qr_search" class="kw-mobile" placeholder="Tìm kiếm" type="text">
+                  <a href="#" class="submit-search-pc" onClick="">
+                    <i class="fa fa-search" aria-hidden="true"></i> </a>
+
+                  <a href="#" class="closeX" onClick="$('.search-pc').hide(); return false;">&#10005;</a>
+                </form>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -551,6 +562,7 @@
               <li>Email:</li>
               <li>Fax:</li>
             </ul>
+            <p>© 2024 Eco FloFo. All Rights Reserved.</p>
           </div>
         </div>
       </div>

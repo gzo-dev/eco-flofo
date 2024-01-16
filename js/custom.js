@@ -1,11 +1,16 @@
-// Get Current Year
-// function getCurrentYear() {
-//     var d = new Date();
-//     var year = d.getFullYear();
-//     document.querySelector("#displayDateYear").innerText = year;
-// }
-// getCurrentYear()
 
+$(document).ready(function () {
+    $(".submit-search-pc").click(function () {
+      if ($("#qr_search").val() != "")
+        $('#searchformtab').submit(); return false;
+    });
+  });
+    $(document).ready(function () {
+      $(".search-icon").click(function () {
+        $(".search-pc").stop().slideToggle("fast");
+        return false;
+      });
+    });
 //client section owl carousel
 $(".owl-carousel").owlCarousel({
     loop: true,
@@ -64,4 +69,7 @@ function toggleForm(formId) {
 function hideForm(formId) {
     var form = document.getElementById(formId);
     form.style.display = 'none';
-  }
+}
+
+//ádasd
+
