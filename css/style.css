@@ -1333,12 +1333,21 @@ li.carousel-indicator {
   align-items: center;
 }
 
+.form_section2 .container-fluid button{
+  background: rgba(143, 198, 64, 0.21);
+}
+
 .form_section2 .col-9 {
   flex: 0 0 65%;
 }
 
 .form_section2 .myForm {
   margin-left: 100px;
+}
+
+#showFormBtn2.active,
+#showFormBtn1.active {
+  background: rgba(143, 198, 64, 0.80);
 }
 
 /* end price section */

@@ -1,16 +1,16 @@
 
 $(document).ready(function () {
     $(".submit-search-pc").click(function () {
-      if ($("#qr_search").val() != "")
-        $('#searchformtab').submit(); return false;
+        if ($("#qr_search").val() != "")
+            $('#searchformtab').submit(); return false;
     });
-  });
-    $(document).ready(function () {
-      $(".search-icon").click(function () {
+});
+$(document).ready(function () {
+    $(".search-icon").click(function () {
         $(".search-pc").stop().slideToggle("fast");
         return false;
-      });
     });
+});
 //client section owl carousel
 $(".owl-carousel").owlCarousel({
     loop: true,
@@ -54,7 +54,19 @@ $(".owl-carousel").owlCarousel({
 document.addEventListener('DOMContentLoaded', function () {
     document.getElementById('myForm1').style.display = 'block';
     document.getElementById('myForm2').style.display = 'none';
-  });
+
+    // Thêm sự kiện click cho nút "Cá nhân"
+    document.getElementById('showFormBtn1').addEventListener('click', function () {
+        handlePersonalButton();
+    });
+
+    // Thêm sự kiện click cho nút "Công ty"
+    document.getElementById('showFormBtn2').addEventListener('click', function () {
+        handleCompanyButton();
+    });
+
+    document.getElementById('showFormBtn1').classList.add('active');
+});
 
 document.getElementById('showFormBtn1').addEventListener('click', function () {
     toggleForm('myForm1');
@@ -76,5 +88,13 @@ function hideForm(formId) {
     form.style.display = 'none';
 }
 
-//ádasd
+function handlePersonalButton() {
+    document.getElementById('showFormBtn1').classList.add('active');
+    document.getElementById('showFormBtn2').classList.remove('active');
+}
+
+function handleCompanyButton() {
+    document.getElementById('showFormBtn1').classList.remove('active');
+    document.getElementById('showFormBtn2').classList.add('active');
+}
 
