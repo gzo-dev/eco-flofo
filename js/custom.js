@@ -51,6 +51,11 @@ $(".owl-carousel").owlCarousel({
 
 //btn
 
+document.addEventListener('DOMContentLoaded', function () {
+    document.getElementById('myForm1').style.display = 'block';
+    document.getElementById('myForm2').style.display = 'none';
+  });
+
 document.getElementById('showFormBtn1').addEventListener('click', function () {
     toggleForm('myForm1');
     hideForm('myForm2');
