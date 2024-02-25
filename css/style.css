@@ -1289,7 +1289,7 @@ li.carousel-indicator {
 }
 
 .footer_section ul {
-  padding-top: 30px;
+  padding-top: 10px;
 }
 
 .footer_section ul li {
@@ -1516,4 +1516,23 @@ li.carousel-indicator {
 .subpage_section .other .col-4 {
   padding: 0;
   max-width: 300px;
+}
+
+/* sub-service */
+.content_service-decs {
+  display: grid;
+  grid-template-columns: 2fr 2fr 1fr;
+  gap: 20px;
+}
+
+.service_title {
+  background-color: #C8DE8B;
+}
+
+.service_detail h4 {
+  color: #FEBB25;
+}
+
+.service_detail ul {
+  padding-left: 20px;
 }
