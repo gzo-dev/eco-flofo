@@ -3,6 +3,7 @@
 body {
   font-family: 'Roboto', sans-serif;
   color: #040000;
+  border-color: var(--greenYellow);
 }
 
 .layout_padding {
@@ -1535,4 +1536,30 @@ li.carousel-indicator {
 
 .service_detail ul {
   padding-left: 20px;
+}
+
+/* sub-shipping */
+
+.shipping_image {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 50px;
+}
+
+.shipping_image-item {
+  width: 300px;
+  height: 200px;
+}
+
+.main_title-shipping {
+  display: flex;
+  background-color: #8FC640;
+  justify-content: center;
+  padding: 10px 0;
+}
+/* sub-new */
+
+.new_content .image_content {
+  height: 500px;
+  width: 900px;
 }
