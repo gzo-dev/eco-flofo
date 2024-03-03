@@ -172,13 +172,14 @@ a:focus {
 }
 
 .navbar .navbar-brand {
-  width: 20%;
-  padding-bottom: 10px;
+  width: 150px;
+  height: 100%;
 }
 
 .navbar .navbar-brand img {
+  object-fit: cover;
   width: 100%;
-  height: auto;
+  height: 100%;
 }
 
 .header_section .header_bottom ul li a {
@@ -1231,6 +1232,7 @@ li.carousel-indicator {
   padding: 0;
   text-align: left;
   border: none;
+  margin-bottom: 0;
 }
 
 .footer_section a {
@@ -1257,6 +1259,7 @@ li.carousel-indicator {
 
 .box {
   display: flex;
+  margin-bottom: 10px;
 }
 
 .box .logo {
