@@ -1,3 +1,4 @@
+
 @media (max-width: 1300px) {
     .partnership_section .container-fluid .container-fluid {
         grid-template-columns: repeat(8, 1fr);
@@ -28,10 +29,6 @@
 
     .service_eco .overlay-text { 
         font-size: 25px;
-    }
-
-    .service_eco .overlay {
-        left: 10%;
     }
 
     .service_eco .img-box img {
@@ -128,13 +125,31 @@
         font-size: 20px;
     }
 
-    .service_eco .overlay {
-        left: 5%;
+    .service_eco .row {
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    .instruct_section .container {
+        max-width: 768px;
     }
 
 
     .header_section .header_bottom ul li a::after {
         content: none;
+    }
+
+    .featured_new .img-box {
+        height: 25rem;
+    }
+
+    .featured_new2 .img-box2 {
+        height: 100%;
+    }
+
+    .featured_new2 .img-box2::before,
+    .featured_new2 .img-box::before {
+        width: 450px;
     }
 
     .layout_padding {
@@ -162,31 +177,8 @@
         grid-template-columns: 1fr 1fr 1fr;
     }
 
-    .footer_section .footer_top .container-fluid {
-        grid-template-columns: 1fr;
-    }
-
-    .footer_section .footer_bottom .container-fluid {
-        grid-template-columns: 1fr;
-    }
-
-    .footer_section .map_container .map {
-        width: 90vw;
-        height: 33vw;
-        margin-left: 20px;
-    }
-
-    /* .featured_new .row {
-        display: flex;
-        flex-wrap: wrap;
-    } */
-
     .colOfText {
         order: 2;
-    }
-
-    .colOfImg {
-        order: 1;
     }
 
     .footer_section .logo img {
@@ -222,35 +214,72 @@
     .new_section.bottom {
         order: 3;
     }
+
+    /* Footer */
+
+    .footer_section .footer_bottom .container-fluid {
+        grid-template-columns: 1fr;
+    }
+
+    .map_container iframe {
+        width: 100%;
+    }
+
+    .footer_bottom .support {
+        margin-top: 10px;
+    }
+
+    .footer_top-desc {
+        margin-bottom: 10px;
+    }
+
+    .footer_section .contact h4,
+    .footer_section .support h4 {
+        padding-left: 0;
+    }
+
+    .footer_section .contact ul,
+    .footer_section .support ul {
+        padding-left: 0;
+    }   
 }
 
 @media (max-width: 576px) {
-    .service_eco .overlay-text { 
-        font-size: 18px;
-    }
-
-    .service_eco .overlay {
-        left: 5%;
-    }
-
     .partnership_section .container-fluid .container-fluid {
         grid-template-columns: 1fr 1fr;
     }
 
     .service_section .container-fluid {
         grid-template-columns: 1fr 1fr;
+    }
+
+    .featured_new {
+        margin-bottom: 0;
+    }
+
+    .featured_new .colOfText {
+        padding: 0;
+        margin: 0 15px;
+    }
+
+    /* footer */
+    .footer_section .footer_top .container-fluid {
+        grid-template-columns: 1fr;
+    }
+
+    .footer_section .logo-main {
+        height: 250px;
+    }
+
+    .footer_top-desc {
+        display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     }
 }
 
 @media (max-width: 490px) {
 
-    .service_eco .overlay-text { 
-        font-size: 15px;
-    }
-
-    .service_eco .overlay {
-        left: 5%;
-    }
 
     .partnership_section .container-fluid .container-fluid {
         grid-template-columns: 1fr 1fr;
@@ -258,16 +287,17 @@
 
     .service_section .container-fluid {
         grid-template-columns: 1fr 1fr;
-        grid-auto-rows: 100px;
-    }
-
-    .service_section .container-fluid .item h3 {
-        font-size: 12px;
     }
 
     .partnership_section .heading2 h3 {
         padding-top: 0%;
         padding-left: 0%;
+    }
+
+    .featured_new2 .img-box2::before,
+    .featured_new2 .img-box::before {
+        height: 230px;
+        width: 330px;
     }
 
     .form_section2 .myForm {
@@ -282,8 +312,8 @@
         flex-direction: column;
     }  
 
-    .featured_new2 .img-box img {
-        height: 250px;
+    .footer_section .logo-main {
+        height: 200px;
     }
 }
 
@@ -296,17 +326,20 @@
         max-width: 200px;
     }
 
+    .service_section .container-fluid {
+        grid-template-columns: 1fr;
+    }
+
     h2, h3{
         font-size: 20px;
     }
 
-    .service_eco .overlay-text { 
-        font-size: 10px;
-    }
+    /* footer */
 
-    .service_eco .overlay {
-        left: 5%;
+    .footer_section .logo-main {
+        height: 150px;
     }
+    
 }
 
 @media (max-width: 320px) {}

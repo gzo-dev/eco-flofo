@@ -773,7 +773,7 @@ li.carousel-indicator {
 
 .about_section2 .container-fluid .detail {
   background-color: rgba(143, 198, 64, 0.90);
-  padding: 30px 50px 40px 50px;
+  padding: 20px 90px 20px 90px;
 }
 
 /* end about section*/
@@ -961,28 +961,23 @@ li.carousel-indicator {
 .service_section .container-fluid .item {
   background-color: #8FC640CC;
   position: relative;
+  text-align: center;
 }
 
 .service_section .container-fluid .item h3 {
+  top: 40%;
+  width: 100%;
   position: absolute;
-  top: 50%;
-  left: 50%;
   color: #fff;
   font-size: 25px;
   text-transform: uppercase;
-  transform: translate(-50%, -50%);
+  padding: 0 20px;
 }
 
 .service_section .container-fluid .item img {
-  position: absolute;
-  display: flex;
+  object-fit: cover;
   width: 100%;
   height: 100%;
-  padding: 0px;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
-  flex-shrink: 0;
 }
 
 .service_section .heading_container {
@@ -1075,6 +1070,10 @@ li.carousel-indicator {
   color: var(--greenYellow);
 }
 
+.featured_new2 .colOfText {
+  padding-right: 90px;
+}
+
 .featured_new2 .detail-box h3 {
   border-bottom: 3px solid #728F47;
   display: inline-block;
@@ -1085,6 +1084,10 @@ li.carousel-indicator {
 
 .featured_new2 .detail-box ul li{
   color: #FEBB25;
+}
+
+.featured_new2 .detail-box ul {
+  padding-left: 20px;
 }
 
 .featured_new2 .img-box {
@@ -1223,16 +1226,19 @@ li.carousel-indicator {
 }
 
 .footer_section .footer_bottom .container-fluid {
+  padding: 50px 70px 50px 30px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
 }
 
 .footer_section p {
-  color: #000;
-  padding: 0;
   text-align: left;
-  border: none;
+  font-size: 20px;
   margin-bottom: 0;
+}
+
+.footer_top-desc {
+  padding: 20px 0;
 }
 
 .footer_section a {
@@ -1251,10 +1257,7 @@ li.carousel-indicator {
 .footer_section .logo-main img {
   width: 100%;
   height: auto;
-  /* background-color: #D9D9D9;
-  border-radius: 50%;
-  top: 80px;
-  left: 100px; */
+  object-fit: cover;
 }
 
 .box {
@@ -1279,7 +1282,6 @@ li.carousel-indicator {
   text-transform: uppercase;
   font-weight: bold;
   font-size: 20px;
-  padding-left: 40px;
 }
 
 .footer_section h4::after {
@@ -1294,6 +1296,13 @@ li.carousel-indicator {
 
 .footer_section ul {
   padding-top: 10px;
+  padding-left: 0;
+}
+
+.footer_section .ulSp li {
+  width: 250px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid white;
 }
 
 .footer_section ul li {
@@ -1304,7 +1313,6 @@ li.carousel-indicator {
 
 .map_container {
   display: flex;
-  justify-content: center;
 }
 
 /* end footer section*/
@@ -1401,10 +1409,6 @@ li.carousel-indicator {
   display: block;
 }
 
-.contact_section .contact_detail {
-  border-right: 1px solid #686868;
-}
-
 .contact_section .contact_detail p {
   color: #636363;
   font-size: 1.1rem;
@@ -1436,6 +1440,10 @@ li.carousel-indicator {
   border-bottom: 3px solid #FEBB25;
   display: inline-block;
   margin: 50px 0 20px 20px;
+}
+
+.form_section2 {
+  margin-bottom: 90px;
 }
 
 .form_section .form-price input,
@@ -1485,9 +1493,29 @@ li.carousel-indicator {
   background-color: #7E8E6A;
 }
 
+.new_section .container-fluid {
+  margin: 0;
+  padding: 0 50px;
+}
+
+.card-box {
+  padding-top: 30px;
+}
+
+.card-new {
+  margin-top: -30px;
+  padding-left: 45px;
+}
+
 .card-new .card-title {
   font-size: 1rem;
   margin-bottom: 0;
+}
+
+.title-card {
+  font-size: 20px;
+  display: inline-block; 
+  border-bottom: 3px solid #000;
 }
 
 .card {
