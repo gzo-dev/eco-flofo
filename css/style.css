@@ -1315,6 +1315,11 @@ li.carousel-indicator {
   display: flex;
 }
 
+.footer_section .support,
+.footer_section .contact {
+  padding-top: 10px;
+}
+
 /* end footer section*/
 
 .myForm {
@@ -1488,6 +1493,10 @@ li.carousel-indicator {
 }
 
 /* end price section */
+
+.new_section {
+  margin-bottom: 100px;
+}
 
 .new_section .card-body {
   background-color: #7E8E6A;
