@@ -1,13 +1,12 @@
-
 @media (max-width: 1300px) {
     .partnership_section .container-fluid .container-fluid {
         grid-template-columns: repeat(8, 1fr);
-    } 
+    }
 }
 
 @media (min-width: 1200px) {
 
-    .service_eco .overlay-text { 
+    .service_eco .overlay-text {
         font-size: 23px;
     }
 
@@ -27,13 +26,14 @@
         height: auto;
     }
 
-    .service_eco .overlay-text { 
+    .service_eco .overlay-text {
         font-size: 25px;
     }
 
     .service_eco .img-box img {
         width: 100%;
     }
+
     .header_section .main_nav {
         flex: 1;
     }
@@ -117,11 +117,7 @@
         margin-right: 0;
     }
 
-    h2{
-        font-size: 40px;
-    }
-
-    .service_eco .overlay-text { 
+    .service_eco .overlay-text {
         font-size: 20px;
     }
 
@@ -188,7 +184,7 @@
     .form-group.row {
         flex-direction: column;
     }
-    
+
     .form-group.row label:not(.form-check-label) {
         text-align: left;
         margin-bottom: 5px;
@@ -241,7 +237,7 @@
     .footer_section .contact ul,
     .footer_section .support ul {
         padding-left: 0;
-    }   
+    }
 }
 
 @media (max-width: 576px) {
@@ -273,8 +269,8 @@
 
     .footer_top-desc {
         display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+        flex-wrap: wrap;
+        justify-content: center;
     }
 }
 
@@ -304,13 +300,13 @@
         margin-left: 10px;
     }
 
-    .form_section .form-price form{
+    .form_section .form-price form {
         padding: 10px 10px 20px 20px;
     }
 
     .form-group.row {
         flex-direction: column;
-    }  
+    }
 
     .footer_section .logo-main {
         height: 200px;
@@ -330,7 +326,8 @@
         grid-template-columns: 1fr;
     }
 
-    h2, h3{
+    h2,
+    h3 {
         font-size: 20px;
     }
 
@@ -339,8 +336,7 @@
     .footer_section .logo-main {
         height: 150px;
     }
-    
+
 }
 
 @media (max-width: 320px) {}
-
