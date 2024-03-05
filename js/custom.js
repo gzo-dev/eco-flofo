@@ -37,5 +37,4 @@ $(".owl-carousel").owlCarousel({
     }
 });
 
-
-
+  
