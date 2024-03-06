@@ -36,5 +36,3 @@ $(".owl-carousel").owlCarousel({
         }
     }
 });
-
-  
