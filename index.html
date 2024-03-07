@@ -1,517 +1,698 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <!-- Basic -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- Mobile Metas -->
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <!-- Site Metas -->
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
 
-<head>
-  <!-- Basic -->
-  <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <!-- Mobile Metas -->
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-  <!-- Site Metas -->
-  <meta name="keywords" content="" />
-  <meta name="description" content="" />
-  <meta name="author" content="" />
+    <title>ECO FLOFO</title>
 
-  <title>ECO FLOFO</title>
+    <!-- slider stylesheet -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    />
+    <!-- bootstrap core css -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+    <!-- font awesome style -->
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
 
-  <!-- slider stylesheet -->
-  <link rel="stylesheet" type="text/css"
-    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
-  <!-- bootstrap core css -->
-  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
-  <!-- font awesome style -->
-  <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
+    <!-- Custom styles for this template -->
+    <link href="css/style.css" rel="stylesheet" />
+    <!-- responsive style -->
+    <link href="css/responsive.css" rel="stylesheet" />
+    <link href="aos-master/dist/aos.css" rel="stylesheet" />
+  </head>
 
-  <!-- Custom styles for this template -->
-  <link href="css/style.css" rel="stylesheet" />
-  <!-- responsive style -->
-  <link href="css/responsive.css" rel="stylesheet" />
-  <link href="aos-master/dist/aos.css" rel="stylesheet">
+  <body>
+    <div class="hero_area">
+      <!-- header section strats -->
+      <header class="header_section">
+        <div class="header_top">
+          <div class="container-fluid">
+            <div class="contact_nav mr-4">
+              <i aria-hidden="true"
+                ><img src="images/🦆 icon _Viet Nam_.svg" alt=""
+              /></i>
+              <i aria-hidden="true"
+                ><img src="images/🦆 icon _Northern Ireland_.svg" alt=""
+              /></i>
+              <div class="icon-search text-white ml-3">
+                Tìm kiếm
+                <i class="fa fa-search search-icon" aria-hidden="true"></i>
+                <div class="search-pc mt-2" style="">
+                  <form action="/search/" method="get" id="searchformtab">
+                    <input
+                      name="qr"
+                      id="qr_search"
+                      class="kw-mobile"
+                      placeholder="Tìm kiếm"
+                      type="text"
+                    />
+                    <a href="#" class="submit-search-pc" onClick="">
+                      <i class="fa fa-search" aria-hidden="true"></i>
+                    </a>
 
-</head>
-
-<body>
-  <div class="hero_area">
-    <!-- header section strats -->
-    <header class="header_section">
-      <div class="header_top">
-        <div class="container-fluid">
-          <div class="contact_nav mr-4">
-            <i aria-hidden="true"><img src="images/🦆 icon _Viet Nam_.svg" alt=""></i>
-            <i aria-hidden="true"><img src="images/🦆 icon _Northern Ireland_.svg" alt=""></i>
-            <div class="icon-search text-white ml-3">
-              Tìm kiếm <i class="fa fa-search search-icon" aria-hidden="true"></i>
-              <div class="search-pc mt-2" style="">
-                <form action="/search/" method="get" id="searchformtab">
-                  <input name="qr" id="qr_search" class="kw-mobile" placeholder="Tìm kiếm" type="text">
-                  <a href="#" class="submit-search-pc" onClick="">
-                    <i class="fa fa-search" aria-hidden="true"></i> </a>
-
-                  <a href="#" class="closeX" onClick="$('.search-pc').hide(); return false;">&#10005;</a>
-                </form>
+                    <a
+                      href="#"
+                      class="closeX"
+                      onClick="$('.search-pc').hide(); return false;"
+                      >&#10005;</a
+                    >
+                  </form>
+                </div>
               </div>
             </div>
           </div>
         </div>
+        <div class="header_bottom">
+          <div class="container">
+            <nav class="navbar navbar-expand-lg custom_nav-container">
+              <a class="navbar-brand" href="index.html">
+                <img src="images/logo.png" alt="logo.png" />
+              </a>
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-toggle="collapse"
+                data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav">
+                  <li class="nav-item active">
+                    <a class="nav-link" href="index.html"
+                      >Trang chủ <span class="sr-only">(current)</span></a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="about.html"> Giới thiệu</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a
+                      class="nav-link"
+                      data-toggle="dropdown"
+                      href="#"
+                      role="button"
+                      aria-haspopup="true"
+                      aria-expanded="false"
+                      >Dịch vụ</a
+                    >
+                    <div class="dropdown-menu">
+                      <a class="dropdown-item" href="shipping.html"
+                        >Tư vấn vận chuyển</a
+                      >
+                      <a class="dropdown-item" href="service.html"
+                        >Kết nối thương mại</a
+                      >
+                    </div>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a
+                      class="nav-link"
+                      data-toggle="dropdown"
+                      href="#"
+                      role="button"
+                      aria-haspopup="true"
+                      aria-expanded="false"
+                      >Tin tức</a
+                    >
+                    <div class="dropdown-menu">
+                      <a class="dropdown-item" href="market-logistics.html"
+                        >Thị trường Logistics trong và ngoài nước</a
+                      >
+                      <a class="dropdown-item" href="global-market.html"
+                        >Thị trường xuất - nhập khẩu toàn cầu</a
+                      >
+                    </div>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="prices.html">Tra cứu giá</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Liên hệ</a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </header>
+      <!-- end header section -->
+      <!-- slider section -->
+      <section class="slider_section">
+        <div
+          id="carouselExampleIndicators"
+          class="carousel slide"
+          data-ride="carousel"
+        >
+          <ol class="carousel-indicators">
+            <li
+              data-target="#carouselExampleIndicators"
+              data-slide-to="0"
+              class="active carousel-indicator"
+            >
+              <div class="slide_item">1</div>
+            </li>
+            <li
+              data-target="#carouselExampleIndicators"
+              data-slide-to="1"
+              class="carousel-indicator"
+            >
+              <div class="slide_item">2</div>
+            </li>
+          </ol>
+          <div class="carousel-inner" style="max-height: 530px">
+            <div class="carousel-item active">
+              <img src="images/slide2.gif" class="d-block w-100" alt="..." />
+            </div>
+            <div class="carousel-item">
+              <video loop autoplay src="images/slide2.mp4"></video>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- end slider section -->
+      <div
+        class="heading_container heading_center py-4 mt-5 mb-4"
+        style="background-image: url(/images/Rectangle\ 4204.png)"
+      >
+        <h2 class="text-white mb-0">Giới thiệu công ty</h2>
       </div>
-      <div class="header_bottom">
+      <!-- about section -->
+      <section class="about_section">
         <div class="container">
-          <nav class="navbar navbar-expand-lg custom_nav-container ">
-            <a class="navbar-brand" href="index.html">
-              <img src="images/logo.png" alt="logo.png">
+          <div class="row">
+            <div class="col-lg-6 mx-auto">
+              <div
+                class="img-box imgAni"
+                data-aos="fade-right"
+                data-aos-duration="1500"
+              >
+                <img src="images/aaaa 1.jpg" alt="" />
+              </div>
+            </div>
+            <div
+              class="col-lg-6 mx-auto"
+              data-aos="fade-left"
+              data-aos-duration="1500"
+            >
+              <div class="detail-box">
+                <h3 class="" style="color: #febb25; font-size: 1.5rem">
+                  GIỚI THIỆU
+                </h3>
+                <p class="text-justify">
+                  Nhận thấy xu hướng xuất - nhập khẩu của thị trường Việt Nam có
+                  chiều hướng phát triển mạnh, công ty TNHH Thương Mại Toàn Cầu
+                  Eco FloFo ra đời với mong muốn hỗ trợ khách hàng về các vấn đề
+                  liên quan đến chiến lược thương mại nói chung và giải pháp vận
+                  chuyển nói riêng. Bên cạnh đó, chúng tôi cũng sẽ đảm bảo các
+                  yêu cầu của khách hàng được thực hiện đúng theo quy định của
+                  pháp luật trong nước và quốc tế. Bằng tất cả nỗ lực, chúng tôi
+                  khát vọng chinh phục thị trường toàn cầu.
+                </p>
+                <a class="font-weight-bold" href="about.html"> Xem thêm </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- end about section -->
+
+      <!-- service1 -->
+
+      <section class="service_eco pt-4">
+        <div class="container">
+          <div class="heading_container heading_center my-5">
+            <h3>Dịch vụ của ECO FLO</h3>
+          </div>
+          <div class="row">
+            <div class="col-lg-6 mx-auto justify-content-center">
+              <div
+                class="img-box imgAni"
+                data-aos="fade-right"
+                data-aos-duration="1500"
+              >
+                <img src="images/service1.png" alt="" />
+                <div class="overlay">
+                  <h4
+                    id="trigger-btn-1"
+                    class="overlay-text"
+                    data-toggle="modal"
+                    data-target="#myModal"
+                  >
+                    Tư vấn vận chuyển
+                  </h4>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 mx-auto justify-content-center">
+              <div
+                class="img-box imgAni"
+                data-aos="fade-left"
+                data-aos-duration="1500"
+              >
+                <img src="images/service2.png" alt="" />
+                <div class="overlay">
+                  <h4
+                    id="trigger-btn-2"
+                    class="overlay-text"
+                    data-toggle="modal"
+                    data-target="#myModal2"
+                  >
+                    Kết nối thương mại
+                  </h4>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Modal -->
+        <div
+          class="modal fade"
+          id="myModal"
+          tabindex="-1"
+          role="dialog"
+          aria-labelledby="exampleModalLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <!-- Nội dung modal -->
+              <img src="images/shipmain.jfif" alt="" />
+            </div>
+          </div>
+        </div>
+        <div
+          class="modal fade"
+          id="myModal2"
+          tabindex="-1"
+          role="dialog"
+          aria-labelledby="exampleModalLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <!-- Nội dung modal -->
+              <img src="images/connection.jfif" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- end about section -->
+
+      <div
+        class="heading_container heading_center py-4 mt-5"
+        style="background-image: url(/images/Rectangle\ 4195.png)"
+      >
+        <h2 class="text-white mb-0">Dịch vụ chính</h2>
+      </div>
+
+      <!-- General transportation -->
+
+      <section class="service_section layout_padding2-bottom">
+        <div class="heading_container heading_center">
+          <h3>Vận chuyển tổng hợp</h3>
+        </div>
+        <div class="container pt-4">
+          <div
+            class="container-fluid"
+            data-aos="fade-right"
+            data-aos-duration="1500"
+          >
+            <a href="sub-shipping.html" class="item imgAni">
+              <img src="images/ship.jfif" alt="" />
+              <h3>vận chuyển hàng xá</h3>
             </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-              aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav ">
-                <li class="nav-item active">
-                  <a class="nav-link" href="index.html">Trang chủ <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="about.html"> Giới thiệu</a>
-                </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
-                    aria-expanded="false">Dịch vụ</a>
-                  <div class="dropdown-menu">
-                    <a class="dropdown-item" href="shipping.html">Tư vấn vận chuyển</a>
-                    <a class="dropdown-item" href="service.html">Kết nối thương mại</a>
+            <a href="sub-shipping.html" class="item imgAni">
+              <img src="images/ship2.jfif" alt="" />
+              <h3>VẬN CHUYỂN HÀNG SIÊU TRƯỜNG SIÊU TRỌNG</h3>
+            </a>
+            <a href="sub-shipping.html" class="item imgAni">
+              <img src="images/ship3.jfif" alt="" />
+              <h3>VẬN CHUYỂN HÀNG LẺ</h3>
+            </a>
+            <a href="sub-shipping.html" class="item imgAni">
+              <img src="images/ship4.png" alt="" />
+              <h3>VẬN CHUYỂN HÀNG CONT</h3>
+            </a>
+            <a href="sub-shipping.html" class="item imgAni">
+              <img src="images/ship5.gif" alt="" />
+              <h3>VẬN CHUYỂN NỘI ĐỊA ( SÀ LAN/ XE TẢI )</h3>
+            </a>
+            <a href="sub-shipping.html" class="item imgAni">
+              <img src="images/ship6.gif" alt="" />
+              <h3>Các dịch vụ khác</h3>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- end service section -->
+      <!-- General transportation -->
+
+      <section class="service_section layout_padding2-bottom">
+        <div class="heading_container heading_center">
+          <h3>Xúc tiến nhập khẩu</h3>
+        </div>
+        <div class="container pt-4">
+          <div
+            class="container-fluid"
+            data-aos="fade-right"
+            data-aos-duration="1500"
+          >
+            <a href="sub-service.html" class="item imgAni">
+              <img src="images/import1.jfif" alt="" />
+              <h3>Đường</h3>
+            </a>
+            <a href="sub-service.html" class="item imgAni">
+              <img src="images/import2.jfif" alt="" />
+              <h3>Gạo Ấn Độ</h3>
+            </a>
+            <a href="sub-service.html" class="item imgAni">
+              <img src="images/import3.png" alt="" />
+              <h3>Nguyên liệu thức ăn chăn nuôi</h3>
+            </a>
+            <a href="sub-service.html" class="item imgAni">
+              <img src="images/import4.png" alt="" />
+              <h3>Phân bón hữu cơ</h3>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- end service section -->
+      <!-- General transportation -->
+
+      <section class="service_section layout_padding2-bottom">
+        <div class="heading_container heading_center">
+          <h3>Xúc tiến xuất khẩu</h3>
+        </div>
+        <div class="container pt-4">
+          <div
+            class="container-fluid"
+            data-aos="fade-right"
+            data-aos-duration="1500"
+          >
+            <a href="sub-service.html" class="item imgAni">
+              <img src="images/export1.jfif" alt="" />
+              <h3>Gạo</h3>
+            </a>
+            <a href="sub-service.html" class="item imgAni">
+              <img src="images/export2.jfif" alt="" />
+              <h3>Sầu riêng</h3>
+            </a>
+            <a href="sub-service.html" class="item imgAni">
+              <img src="images/export3.jfif" alt="" />
+              <h3>Xoài</h3>
+            </a>
+            <a href="sub-service.html" class="item imgAni">
+              <img src="images/export4.jfif" alt="" />
+              <h3>Thanh long</h3>
+            </a>
+            <a href="sub-service.html" class="item imgAni">
+              <img src="images/tieu.jfif" alt="" />
+              <h3>Tiêu</h3>
+            </a>
+            <a href="sub-service.html" class="item imgAni">
+              <img src="images/export6.jfif" alt="" />
+              <h3>Chanh dây</h3>
+            </a>
+            <a href="sub-service.html" class="item imgAni">
+              <img src="images/hatdieu.jfif" alt="" />
+              <h3>Hạt điều</h3>
+            </a>
+            <a href="sub-service.html" class="item imgAni">
+              <img src="images/tinhbotsan.png" alt="" />
+              <h3>Tinh bột sắn</h3>
+            </a>
+            <a href="sub-service.html" class="item imgAni">
+              <img src="images/export9.jfif" alt="" />
+              <h3>Viên nén gỗ</h3>
+            </a>
+            <a href="sub-service.html" class="item imgAni">
+              <img src="images/export10.jfif" alt="" />
+              <h3>Khoai mì lát</h3>
+            </a>
+            <a href="sub-service.html" class="item imgAni">
+              <img src="images/export11.jfif" alt="" />
+              <h3>Ớt</h3>
+            </a>
+            <a href="sub-service.html" class="item imgAni">
+              <img src="images/export12.jfif" alt="" />
+              <h3>Gừng</h3>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- end service section -->
+
+      <div
+        class="heading_container heading_center py-4 mt-5 mb-4"
+        style="background-image: url(/images/Rectangle\ 4203.png)"
+      >
+        <h2 class="mb-0" style="color: #728f47">
+          QUY TRÌNH BỀN VỮNG VÀ THÂN THIỆN MÔI TRƯỜNG
+        </h2>
+      </div>
+
+      <!-- instruct_section -->
+      <section class="instruct_section">
+        <div
+          class="container imgAni"
+          data-aos="fade-right"
+          data-aos-duration="1500"
+        >
+          <img src="images/home.jpg" alt="" />
+        </div>
+      </section>
+      <!-- end instruct_section -->
+
+      <div
+        class="heading_container heading_center py-4 mt-5"
+        style="background-image: url(/images/Rectangle\ 4205.png)"
+      >
+        <h2 class="text-white mb-0">Tin tức nổi bật</h2>
+      </div>
+
+      <!-- featured_new -->
+      <section class="featured_new">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 colOfImg px-0">
+              <div
+                class="img-box imgAni"
+                style="
+                  background: url(images/newmain1.png) no-repeat center;
+                  background-size: cover;
+                "
+                data-aos="fade-right"
+                data-aos-duration="1500"
+              >
+                <!-- <img src="images/Rectangle 4168.png" alt=""> -->
+              </div>
+            </div>
+            <div class="col-lg-6 colOfText">
+              <div
+                class="detail-box mb-5"
+                data-aos="fade-left"
+                data-aos-duration="1500"
+              >
+                <h3>LÀM CHỦ CUỘC CHƠI TRONG THỊ TRƯỜNG LOGISTICS</h3>
+                <p class="text-justify">
+                  Theo xếp hạng của Ngân hàng Thế giới, Việt Nam hiện đứng thứ
+                  64/160 nước về mức độ phát triển logistics. Đặc biệt, Việt Nam
+                  cũng lọt vào Top 10 thị trường logistics mới nổi và dự báo tỷ
+                  lệ tăng trưởng kép hàng năm giai đoạn 2022 – 2027 đạt 5,5%.
+                  <br />
+                  Thúc đẩy tăng trưởng mới cho nền kinh tế, tạo ra một hành lang
+                  vận tải đa phương thức
+                </p>
+                <a href="sub-new.html" class="font-weight-bold"> Chi tiết </a>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-6 colOfText pl-0">
+              <div
+                class="detail-box mb-5"
+                data-aos="fade-right"
+                data-aos-duration="1500"
+              >
+                <h3>THƯƠNG MẠI TOÀN CẦU TRONG 2023 NHIỀU TÍN HIỆU TÍCH CỰC</h3>
+                <p class="text-justify">
+                  Trong năm 2023, xu hướng nhập khẩu các mặt hàng như dầu, khí
+                  đốt tự nhiên và khoáng sản vẫn ở mức cao vào năm 2023, do sự
+                  phục hồi kinh tế sau đại dịch và những lo ngại về thể chế
+                  chính trị mới.<br />
+                  Tại thị trường châu Á, vẫn là khu vực đóng góp lớn nhất cho
+                  thương mại toàn cầu, chiếm tỷ trọng đáng kể trong cả xuất khẩu
+                  và nhập khẩu.
+                </p>
+                <a href="sub-new.html" class="font-weight-bold"> Chi tiết </a>
+              </div>
+            </div>
+            <div class="col-lg-6 colOfImg px-0">
+              <div
+                class="img-box imgAni"
+                style="
+                  background: url(images/newmain2.png) no-repeat center;
+                  background-size: cover;
+                "
+                data-aos="fade-left"
+                data-aos-duration="1500"
+              ></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- end featured_new -->
+
+      <!-- footer section -->
+      <footer class="footer_section">
+        <div class="container-fluid px-0">
+          <div class="footer_top">
+            <div class="container">
+              <div
+                class="logo-main"
+                data-aos="fade-right"
+                data-aos-duration="1500"
+              >
+                <img src="images/logo.png" alt="" />
+              </div>
+              <div class="footer_top-desc">
+                <h3 class="text-white">ECO FLOFO</h3>
+                <p class="">
+                  Công ty TNHH Thương Mại Toàn Cầu Eco FloFo là một doanh nghiệp
+                  chuyên về lĩnh vực tư vấn vận chuyển & kết nối thương mại.
+                  Chúng tôi luôn lấy sự hài lòng của khách hàng là nền tảng cho
+                  sự phát triển.
+                </p>
+                <h3 class="text-white pt-2">KẾT NỐI VỚI CHÚNG TÔI</h3>
+                <div class="box">
+                  <div class="logo">
+                    <a href="">
+                      <img src="images/social media logo.svg" alt="" />
+                    </a>
                   </div>
-                </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
-                    aria-expanded="false">Tin tức</a>
-                  <div class="dropdown-menu">
-                    <a class="dropdown-item" href="market-logistics.html">Thị trường Logistics trong và ngoài nước</a>
-                    <a class="dropdown-item" href="global-market.html">Thị trường xuất - nhập khẩu toàn cầu</a>
+                  <div class="logo">
+                    <a href="">
+                      <img src="images/image 12.png" alt="" />
+                    </a>
                   </div>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="prices.html">Tra cứu giá</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="contact.html">Liên hệ</a>
-                </li>
-              </ul>
-            </div>
-          </nav>
-        </div>
-      </div>
-    </header>
-    <!-- end header section -->
-    <!-- slider section -->
-    <section class="slider_section">
-      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-        <ol class="carousel-indicators">
-          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active carousel-indicator">
-            <div class="slide_item">1</div>
-          </li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="1" class="carousel-indicator">
-            <div class="slide_item">2</div>
-          </li>
-        </ol>
-        <div class="carousel-inner" style="max-height: 530px;">
-          <div class="carousel-item active">
-            <img src="images/slide2.gif" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <video loop autoplay src="images/slide2.mp4"></video>
-          </div>
-    </section>
-    <!-- end slider section -->
-    <div class="heading_container heading_center py-4 mt-5 mb-4"
-      style="background-image: url(/images/Rectangle\ 4204.png);">
-      <h2 class="text-white mb-0"> Giới thiệu công ty </h2>
-    </div>
-    <!-- about section -->
-    <section class="about_section">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-6 mx-auto">
-            <div class="img-box imgAni" data-aos="fade-right" data-aos-duration="1500">
-              <img src="images/aaaa 1.jpg" alt="">
-            </div>
-          </div>
-          <div class="col-lg-6 mx-auto" data-aos="fade-left" data-aos-duration="1500">
-            <div class="detail-box">
-              <h3 class="" style="color: #FEBB25; font-size: 1.5rem;">
-                GIỚI THIỆU
-              </h3>
-              <p class="text-justify">
-                Nhận thấy xu hướng xuất - nhập khẩu của thị trường Việt Nam có chiều hướng phát triển mạnh,
-                công ty TNHH Thương Mại Toàn Cầu Eco FloFo ra đời với mong muốn hỗ trợ khách hàng về các vấn đề liên
-                quan đến chiến lược thương mại nói chung và giải pháp vận chuyển nói riêng. Bên cạnh đó, chúng tôi cũng
-                sẽ đảm bảo các yêu cầu của khách hàng được thực hiện đúng theo quy định của pháp luật trong nước và quốc
-                tế. Bằng tất cả nỗ lực, chúng tôi khát vọng chinh phục thị trường toàn cầu.
-              </p>
-              <a class="font-weight-bold" href="about.html">
-                Xem thêm
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- end about section -->
-
-    <!-- service1 -->
-
-    <section class="service_eco pt-4">
-      <div class="container">
-        <div class="heading_container heading_center my-5">
-          <h3> Dịch vụ của ECO FLO </h3>
-        </div>
-        <div class="row">
-          <div class="col-lg-6 mx-auto justify-content-center">
-            <div class="img-box imgAni" data-aos="fade-right" data-aos-duration="1500">
-              <img src="images/service1.png" alt="">
-              <div class="overlay">
-                <h4 class="overlay-text" data-toggle="modal" data-target="#myModal">Tư vấn vận chuyển</h4>             
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-6 mx-auto justify-content-center">
-            <div class="img-box imgAni" data-aos="fade-left" data-aos-duration="1500">
-              <img src="images/service2.png" alt="">
-              <div class="overlay">
-                <h4 class="overlay-text" data-toggle="modal" data-target="#myModal2">Kết nối thương mại</h4>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- Modal -->
-      <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-        aria-hidden="true">
-        <div class="modal-dialog" role="document">
-          <div class="modal-content">
-            <!-- Nội dung modal -->
-            <img src="images/shipmain.jfif" alt="">
-          </div>
-        </div>
-      </div>
-      <div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-        aria-hidden="true">
-        <div class="modal-dialog" role="document">
-          <div class="modal-content">
-            <!-- Nội dung modal -->
-            <img src="images/connection.jfif" alt="">
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- end about section -->
-
-    <div class="heading_container heading_center py-4 mt-5" style="background-image: url(/images/Rectangle\ 4195.png);">
-      <h2 class="text-white mb-0"> Dịch vụ chính </h2>
-    </div>
-
-    <!-- General transportation -->
-
-    <section class="service_section layout_padding2-bottom">
-      <div class="heading_container heading_center">
-        <h3> Vận chuyển tổng hợp </h3>
-      </div>
-      <div class="container pt-4">
-        <div class="container-fluid"  data-aos="fade-right" data-aos-duration="1500">
-          <a href="sub-shipping.html" class="item imgAni">
-            <img src="images/ship.jfif" alt="">
-            <h3>vận chuyển hàng xá</h3>
-          </a>
-          <a href="sub-shipping.html" class=" item imgAni">
-            <img src="images/ship2.jfif" alt="">
-            <h3>VẬN CHUYỂN HÀNG SIÊU TRƯỜNG SIÊU TRỌNG</h3>
-          </a>
-          <a href="sub-shipping.html" class=" item imgAni">
-            <img src="images/ship3.jfif" alt="">
-            <h3>VẬN CHUYỂN HÀNG LẺ</h3>
-          </a>
-          <a href="sub-shipping.html" class=" item imgAni">
-            <img src="images/ship4.png" alt="">
-            <h3>VẬN CHUYỂN HÀNG CONT</h3>
-          </a>
-          <a href="sub-shipping.html" class=" item imgAni">
-            <img src="images/ship5.gif" alt="">
-            <h3>VẬN CHUYỂN NỘI ĐỊA ( SÀ LAN/ XE TẢI )</h3>
-          </a>
-          <a href="sub-shipping.html" class=" item imgAni">
-            <img src="images/ship6.gif" alt="">
-            <h3>Các dịch vụ khác</h3>
-          </a>
-        </div>
-      </div>
-    </section>
-
-    <!-- end service section -->
-    <!-- General transportation -->
-
-    <section class="service_section layout_padding2-bottom">
-      <div class="heading_container heading_center">
-        <h3> Xúc tiến nhập khẩu </h3>
-      </div>
-      <div class="container pt-4">
-        <div class="container-fluid"  data-aos="fade-right" data-aos-duration="1500">
-          <a href="sub-service.html" class="item imgAni">
-            <img src="images/import1.jfif" alt="">
-            <h3>Đường</h3>
-          </a>
-          <a href="sub-service.html" class=" item imgAni">
-            <img src="images/import2.jfif" alt="">
-            <h3>Gạo Ấn Độ</h3>
-          </a>
-          <a href="sub-service.html" class=" item imgAni">
-            <img src="images/import3.png" alt="">
-            <h3>Nguyên liệu thức ăn chăn nuôi</h3>
-          </a>
-          <a href="sub-service.html" class=" item imgAni">
-            <img src="images/import4.png" alt="">
-            <h3>Phân bón hữu cơ</h3>
-          </a>
-        </div>
-      </div>
-    </section>
-
-    <!-- end service section -->
-    <!-- General transportation -->
-
-    <section class="service_section layout_padding2-bottom">
-      <div class="heading_container heading_center">
-        <h3> Xúc tiến xuất khẩu </h3>
-      </div>
-      <div class="container pt-4">
-        <div class="container-fluid"  data-aos="fade-right" data-aos-duration="1500">
-          <a href="sub-service.html" class="item imgAni">
-            <img src="images/export1.jfif" alt="">
-            <h3>Gạo</h3>
-          </a>
-          <a href="sub-service.html" class=" item imgAni">
-            <img src="images/export2.jfif" alt="">
-            <h3>Sầu riêng</h3>
-          </a>
-          <a href="sub-service.html" class=" item imgAni">
-            <img src="images/export3.jfif" alt="">
-            <h3>Xoài</h3>
-          </a>
-          <a href="sub-service.html" class=" item imgAni">
-            <img src="images/export4.jfif" alt="">
-            <h3>Thanh long</h3>
-          </a>
-          <a href="sub-service.html" class=" item imgAni">
-            <img src="images/tieu.jfif" alt="">
-            <h3>Tiêu</h3>
-          </a>
-          <a href="sub-service.html" class=" item imgAni">
-            <img src="images/export6.jfif" alt="">
-            <h3>Chanh dây</h3>
-          </a>
-          <a href="sub-service.html" class=" item imgAni">
-            <img src="images/hatdieu.jfif" alt="">
-            <h3>Hạt điều</h3>
-          </a>
-          <a href="sub-service.html" class=" item imgAni">
-            <img src="images/tinhbotsan.png" alt="">
-            <h3>Tinh bột sắn</h3>
-          </a>
-          <a href="sub-service.html" class=" item imgAni">
-            <img src="images/export9.jfif" alt="">
-            <h3>Viên nén gỗ</h3>
-          </a>
-          <a href="sub-service.html" class=" item imgAni">
-            <img src="images/export10.jfif" alt="">
-            <h3>Khoai mì lát</h3>
-          </a>
-          <a href="sub-service.html" class=" item imgAni">
-            <img src="images/export11.jfif" alt="">
-            <h3>Ớt</h3>
-          </a>
-          <a href="sub-service.html" class=" item imgAni">
-            <img src="images/export12.jfif" alt="">
-            <h3>Gừng</h3>
-          </a>
-        </div>
-      </div>
-    </section>
-
-    <!-- end service section -->
-
-    <div class="heading_container heading_center py-4 mt-5 mb-4"
-      style="background-image: url(/images/Rectangle\ 4203.png);">
-      <h2 class=" mb-0" style="color: #728F47;"> QUY TRÌNH BỀN VỮNG VÀ THÂN THIỆN MÔI TRƯỜNG </h2>
-    </div>
-
-    <!-- instruct_section -->
-    <section class="instruct_section">
-      <div class="container imgAni" data-aos="fade-right" data-aos-duration="1500">
-        <img src="images/home.jpg" alt="">
-      </div>
-    </section>
-    <!-- end instruct_section -->
-
-    <div class="heading_container heading_center py-4 mt-5" style="background-image: url(/images/Rectangle\ 4205.png);">
-      <h2 class="text-white mb-0"> Tin tức nổi bật </h2>
-    </div>
-
-    <!-- featured_new -->
-    <section class="featured_new">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-6 colOfImg px-0">
-            <div class="img-box imgAni"
-              style="background: url(images/newmain1.png) no-repeat center; background-size: cover;"
-              data-aos="fade-right" data-aos-duration="1500">
-              <!-- <img src="images/Rectangle 4168.png" alt=""> -->
-            </div>
-          </div>
-          <div class="col-lg-6 colOfText">
-            <div class="detail-box mb-5" data-aos="fade-left" data-aos-duration="1500">
-              <h3>
-                LÀM CHỦ CUỘC CHƠI TRONG THỊ TRƯỜNG LOGISTICS
-              </h3>
-              <p class="text-justify">
-                Theo xếp hạng của Ngân hàng Thế giới, Việt Nam hiện đứng thứ 64/160 nước về mức độ phát triển logistics.
-                Đặc biệt, Việt Nam cũng lọt vào Top 10 thị trường logistics mới nổi và dự báo tỷ lệ tăng trưởng kép hàng
-                năm giai đoạn 2022 – 2027 đạt 5,5%. <br>
-                Thúc đẩy tăng trưởng mới cho nền kinh tế, tạo ra một hành lang vận tải đa phương thức
-              </p>
-              <a href="sub-new.html" class="font-weight-bold">
-                Chi tiết
-              </a>
-            </div>
-          </div>
-
-        </div>
-        <div class="row">
-          <div class="col-lg-6 colOfText pl-0">
-            <div class="detail-box mb-5" data-aos="fade-right" data-aos-duration="1500">
-              <h3>
-                THƯƠNG MẠI TOÀN CẦU TRONG 2023 NHIỀU TÍN HIỆU TÍCH CỰC
-              </h3>
-              <p class="text-justify">
-                Trong năm 2023, xu hướng nhập khẩu các mặt hàng như dầu, khí đốt tự nhiên và khoáng sản vẫn ở mức cao
-                vào năm 2023, do sự phục hồi kinh tế sau đại dịch và những lo ngại về thể chế chính trị mới.<br>
-                Tại thị trường châu Á, vẫn là khu vực đóng góp lớn nhất cho thương mại toàn cầu, chiếm tỷ trọng đáng kể
-                trong cả xuất khẩu và nhập khẩu.
-              </p>
-              <a href="sub-new.html" class="font-weight-bold">
-                Chi tiết
-              </a>
-            </div>
-          </div>
-          <div class="col-lg-6 colOfImg px-0">
-            <div class="img-box imgAni"
-              style="background: url(images/newmain2.png) no-repeat center; background-size: cover;"
-              data-aos="fade-left" data-aos-duration="1500">
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- end featured_new -->
-
-    <!-- footer section -->
-    <footer class="footer_section">
-      <div class="container-fluid px-0">
-        <div class="footer_top">
-          <div class="container">
-            <div class="logo-main" data-aos="fade-right" data-aos-duration="1500">
-              <img src="images/logo.png" alt="">
-            </div>
-            <div class="footer_top-desc">
-              <h3 class="text-white">ECO FLOFO</h3>
-              <p class="">Công ty TNHH Thương Mại Toàn Cầu Eco FloFo là một doanh nghiệp chuyên về lĩnh
-                vực tư
-                vấn vận chuyển & kết nối thương mại. Chúng tôi luôn lấy sự hài lòng của khách hàng là nền tảng cho sự
-                phát
-                triển.</p>
-              <h3 class="text-white pt-2">KẾT NỐI VỚI CHÚNG TÔI</h3>
-              <div class="box">
-                <div class="logo">
-                  <a href="">
-                    <img src="images/social media logo.svg" alt="">
-                  </a>
-                </div>
-                <div class="logo">
-                  <a href="">
-                    <img src="images/image 12.png" alt="">
-                  </a>
-                </div>
-                <div class="logo">
-                  <a href="">
-                    <img src="images/Social Icons.svg" alt="" style="background-color: white;">
-                  </a>
-                </div>
-                <div class="logo">
-                  <a href="">
-                    <img src="images/message_icon.svg" alt="">
-                  </a>
-                </div>
-                <div class="logo">
-                  <a href="">
-                    <img src="images/call.svg" alt="">
-                  </a>
-                </div>
-                <div class="logo">
-                  <a href="">
-                    <img src="images/social media logo (1).svg" alt="">
-                  </a>
-                </div>
-                <div class="logo">
-                  <a href="">
-                    <img src="images/Group 7.svg" alt="">
-                  </a>
+                  <div class="logo">
+                    <a href="">
+                      <img
+                        src="images/Social Icons.svg"
+                        alt=""
+                        style="background-color: white"
+                      />
+                    </a>
+                  </div>
+                  <div class="logo">
+                    <a href="">
+                      <img src="images/message_icon.svg" alt="" />
+                    </a>
+                  </div>
+                  <div class="logo">
+                    <a href="">
+                      <img src="images/call.svg" alt="" />
+                    </a>
+                  </div>
+                  <div class="logo">
+                    <a href="">
+                      <img src="images/social media logo (1).svg" alt="" />
+                    </a>
+                  </div>
+                  <div class="logo">
+                    <a href="">
+                      <img src="images/Group 7.svg" alt="" />
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-        <div class="footer_bottom" style="background-color: #B0C691;">
-          <div class="container">
-            <div class="map_container">
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3188.995528700626!2d106.69423891971076!3d10.78705797112499!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752f34fbaf0eef%3A0xadf3a29ccdef1b77!2zMjA3YSDEkC4gTmd1eeG7hW4gVsSDbiBUaOG7pywgxJBhIEthbywgUXXhuq1uIDEsIFRow6BuaCBwaOG7kSBI4buTIENow60gTWluaCwgVmnhu4d0IE5hbQ!5e0!3m2!1svi!2s!4v1705561698438!5m2!1svi!2s"
-                width="350" height="250" style="border-radius:10px;" allowfullscreen="" loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>
-            <div class="support">
-              <h4>Dịch vụ của ECO FLOFO</h4>
-              <ul class="ulSp">
-                <li><strong><a href="">Tư vấn vận chuyển</a></strong></li>
-                <li><strong><a href="">Kết nối thương mại</a></strong></li>
-
-              </ul>
-            </div>
-            <div class="contact">
-              <h4>trụ sở chính</h4>
-              <ul>
-                <li><strong>Địa chỉ: </strong>207A đường Nguyễn Văn Thủ, phường Đa Kao, quận 1, thành phố Hồ Chí Minh,
-                  Việt Nam</li>
-                <li><strong>Phone: </strong>+84 938 024 762</li>
-                <li><strong>Email: </strong>sales@ecoflofotrading.com</li>
-                <!-- <li>Fax:</li> -->
-              </ul>
-              <!-- <p>© 2024 Eco FloFo. All Rights Reserved.</p> -->
+          <div class="footer_bottom" style="background-color: #b0c691">
+            <div class="container">
+              <div class="map_container">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3188.995528700626!2d106.69423891971076!3d10.78705797112499!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752f34fbaf0eef%3A0xadf3a29ccdef1b77!2zMjA3YSDEkC4gTmd1eeG7hW4gVsSDbiBUaOG7pywgxJBhIEthbywgUXXhuq1uIDEsIFRow6BuaCBwaOG7kSBI4buTIENow60gTWluaCwgVmnhu4d0IE5hbQ!5e0!3m2!1svi!2s!4v1705561698438!5m2!1svi!2s"
+                  width="350"
+                  height="250"
+                  style="border-radius: 10px"
+                  allowfullscreen=""
+                  loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"
+                ></iframe>
+              </div>
+              <div class="support">
+                <h4>Dịch vụ của ECO FLOFO</h4>
+                <ul class="ulSp">
+                  <li>
+                    <strong><a href="">Tư vấn vận chuyển</a></strong>
+                  </li>
+                  <li>
+                    <strong><a href="">Kết nối thương mại</a></strong>
+                  </li>
+                </ul>
+              </div>
+              <div class="contact">
+                <h4>trụ sở chính</h4>
+                <ul>
+                  <li>
+                    <strong>Địa chỉ: </strong>207A đường Nguyễn Văn Thủ, phường
+                    Đa Kao, quận 1, thành phố Hồ Chí Minh, Việt Nam
+                  </li>
+                  <li><strong>Phone: </strong>+84 938 024 762</li>
+                  <li><strong>Email: </strong>sales@ecoflofotrading.com</li>
+                  <!-- <li>Fax:</li> -->
+                </ul>
+                <!-- <p>© 2024 Eco FloFo. All Rights Reserved.</p> -->
+              </div>
             </div>
           </div>
         </div>
-      </div>
-    </footer>
-    <!-- footer section -->
-  </div>
-  <script src="js/jquery-3.4.1.min.js"></script>
-  <script src="js/bootstrap.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
-  <script src="js/custom.js"></script>
-  <!-- Google Map -->
-  <!-- <script
+      </footer>
+      <!-- footer section -->
+    </div>
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="js/custom.js"></script>
+    <!-- Google Map -->
+    <!-- <script
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCh39n5U-4IoWpsVGUHWdqB6puEkhRLdmI&callback=myMap"></script> -->
-  <!-- End Google Map -->
-  <script src="aos-master/dist/aos.js"></script>
-  <script>
-    AOS.init();
-  </script>
-</body>
+    <!-- End Google Map -->
+    <script src="aos-master/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script>
+      // Lấy tham chiếu tới modal và nút
+      var btn = document.getElementById("trigger-btn-1");
+      var modal = document.getElementById("myModal");
 
+      // Thêm sự kiện cho nút khi di chuột vào
+      btn.addEventListener("mouseenter", function () {
+        $("#myModal").modal("show");
+      });
+    </script>
+  </body>
 </html>
