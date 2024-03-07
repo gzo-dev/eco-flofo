@@ -687,11 +687,16 @@
     <script>
       // Lấy tham chiếu tới modal và nút
       var btn = document.getElementById("trigger-btn-1");
+      var btn2 = document.getElementById("trigger-btn-2");
       var modal = document.getElementById("myModal");
+      var modal2 = document.getElementById("myModal2");
 
       // Thêm sự kiện cho nút khi di chuột vào
       btn.addEventListener("mouseenter", function () {
         $("#myModal").modal("show");
+      });
+      btn2.addEventListener("mouseenter", function () {
+        $("#myModal2").modal("show");
       });
     </script>
   </body>

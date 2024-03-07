@@ -171,7 +171,7 @@ a:focus {
   display: none;
 }
 
-*/ .header_section .container-fluid {
+* .header_section .container-fluid {
   padding-right: 25px;
   padding-left: 25px;
 }
