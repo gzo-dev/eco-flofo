@@ -1287,10 +1287,11 @@ li.carousel-indicator {
 }
 
 .footer_section .logo-main img {
+  margin-bottom: 30px;
   width: 100%;
   height: auto;
   object-fit: cover;
-  margin-left: -140px;
+  margin-left: -60px;
 }
 
 .box {
@@ -1603,7 +1604,7 @@ li.carousel-indicator {
 /* sub-service */
 .content_service-decs {
   display: grid;
-  grid-template-columns: 2fr 2fr 1fr;
+  grid-template-columns: 2fr 3fr;
   gap: 20px;
 }
 
@@ -1612,11 +1613,21 @@ li.carousel-indicator {
 }
 
 .service_detail h4 {
+  font-size: 20px;
   color: #FEBB25;
+}
+
+.content_service .service_title h2 {
+  font-size: 20px;
 }
 
 .service_detail ul {
   padding-left: 20px;
+}
+
+.content_service .service_image {
+  height: 350px;
+  background-size: contain;
 }
 
 /* sub-shipping */
