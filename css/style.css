@@ -208,7 +208,7 @@ a:focus {
 }
 
 .navbar .navbar-brand {
-  width: 150px;
+  width: 180px;
   height: 100%;
 }
 
@@ -505,18 +505,25 @@ li.carousel-indicator {
 
 .slider_section .responsive_image {
   position: relative;
-  height: 518px;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  width: 100%;
+  aspect-ratio: 2.48;
 }
 
 
-.slider_section .responsive_image h1 {
+.slider_section .responsive_image div {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  font-size: 5vw;
+  white-space: nowrap;
+  color: #fff;
+}
+
+.slider_section .responsive_image h1 {
   font-size: 5vw;
   white-space: nowrap;
   color: #fff;
@@ -1483,7 +1490,7 @@ li.carousel-indicator {
 .price_heading {
   border-bottom: 3px solid #FEBB25;
   display: inline-block;
-  margin: 50px 0 20px 20px;
+  margin: 50px 0 20px 80px;
 }
 
 .form_section2 {
