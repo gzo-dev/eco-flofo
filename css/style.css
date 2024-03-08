@@ -1287,7 +1287,7 @@ li.carousel-indicator {
 }
 
 .footer_section .logo-main img {
-  margin-bottom: 30px;
+  margin: 30px 40px 30px 0;
   width: 100%;
   height: auto;
   object-fit: cover;
@@ -1542,6 +1542,7 @@ li.carousel-indicator {
 
 .card-box {
   padding-top: 30px;
+  padding-left: 15px
 }
 
 .card-new {
