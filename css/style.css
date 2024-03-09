@@ -99,22 +99,25 @@ a:focus {
   height: 100%;
   background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.3) 100%);
   transform: skewX(-25deg);
-  animation: moveGradient 0.5s forwards; 
+  animation: moveGradient 0.5s forwards;
 }
 
 .imgAni:hover::before {
-  animation: moveGradientHover 0.5s forwards; /* Áp dụng animation khi hover */
+  animation: moveGradientHover 0.5s forwards;
+  /* Áp dụng animation khi hover */
 }
 
 @keyframes moveGradientBack {
   to {
-    left: 100%; /* Di chuyển gradient đến vị trí ban đầu */
+    left: 100%;
+    /* Di chuyển gradient đến vị trí ban đầu */
   }
 }
 
 @keyframes moveGradientHover {
   to {
-    left: 100%; /* Di chuyển gradient đến vị trí cuối cùng khi hover */
+    left: 100%;
+    /* Di chuyển gradient đến vị trí cuối cùng khi hover */
   }
 }
 
@@ -477,10 +480,11 @@ li.carousel-indicator {
 
 .slider_section-price .responsive_image {
   position: relative;
-  height: 518px;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  height: 100%;
+  aspect-ratio: 2.48;
 }
 
 .slider_section-price .responsive_image::before {
@@ -504,26 +508,36 @@ li.carousel-indicator {
 }
 
 .slider_section .responsive_image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   position: relative;
-  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  background-size: cover;
   width: 100%;
   aspect-ratio: 2.48;
 }
 
+.slider_section .responsive_image::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));;
+}
 
 .slider_section .responsive_image div {
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
   font-size: 5vw;
   white-space: nowrap;
   color: #fff;
 }
 
 .slider_section .responsive_image h1 {
+  position: absolute;
   font-size: 5vw;
   white-space: nowrap;
   color: #fff;
@@ -541,10 +555,11 @@ li.carousel-indicator {
 
 .slider_section-new .responsive_image {
   position: relative;
-  height: 518px;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  width: 100%;
+  aspect-ratio: 2.48;
 }
 
 .slider_section-new .responsive_image::before {
@@ -1564,7 +1579,7 @@ li.carousel-indicator {
 
 .card-title {
   font-weight: 600;
-    font-size: 1.1rem;
+  font-size: 1.1rem;
 }
 
 .card-text {
