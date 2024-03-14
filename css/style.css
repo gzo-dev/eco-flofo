@@ -683,6 +683,16 @@ li.carousel-indicator {
   left: 35%;
 }
 
+.slider_section-about,
+.slider_section-price,
+.slider_section-new {
+  padding-top: 147.25px;
+}
+
+.contact_section {
+  padding-top: 247.25px;
+}
+
 .slider_section-about .image {
   position: relative;
 }
