@@ -37,6 +37,7 @@ $(".owl-carousel").owlCarousel({
     }
 });
 
+
 // Select all video elements
 var videos = document.querySelectorAll('video');
 
@@ -60,3 +61,21 @@ for (var i = 0; i < videos.length; i++) {
     this.muted = true;
   });
 }
+
+// // Select all video elements
+// var videos = document.querySelectorAll('video');
+
+// // Loop through all videos
+// for (var i = 0; i < videos.length; i++) {
+//   // Add event listener for when the mouse hovers over the video
+//   videos[i].addEventListener('mouseover', function() {
+//     // Unmute the video
+//     this.muted = false;
+//   });
+
+//   // Add event listener for when the mouse stops hovering over the video
+//   videos[i].addEventListener('mouseout', function() {
+//     // Mute the video again
+//     this.muted = true;
+//   });
+// }
